@@ -17,7 +17,12 @@ output application/json
 {
 	firstname: "Iggy",
 	lastname: "Pop"
-}]]]></ee:set-payload>
+},
+{
+	firstname: "Bernard",
+	lastname: "Lavilier"
+}
+]]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="309c9731-5594-4808-adfe-0a11940c697a" />
