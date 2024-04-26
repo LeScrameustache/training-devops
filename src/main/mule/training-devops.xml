@@ -8,9 +8,11 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 		<ee:transform doc:name="Transform Message" doc:id="334120e7-d2d7-4e62-a934-bb06f5251d72" >
 			<ee:message >
 				<ee:set-payload ><![CDATA[%dw 2.0
-output application/java
+output application/json
 ---
 {
+	firstname: "Jon",
+	lastname: "Bon Jovi"
 }]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
